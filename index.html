@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./font/fontface.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Darkmode test</title>
+  </head>
+  <body class="bg-white font-sans">
+    <!-- <h1 class="font-logo text-5xl font-bold text-black">MUCK</h1>
+    <h1 class="font-hero text-4xl font-normal text-black">Font Test</h1>
+    <h1 class="font-sans text-3xl font-normal text-black">Font Test</h1> -->
+
+    <!-- <div class="size-20 bg-white"></div>
+    <div class="size-20 bg-orange-100"></div>
+    <div class="size-20 bg-orange-200"></div>
+    <div class="size-20 bg-blue-100"></div>
+    <div class="size-20 bg-blue-200"></div> -->
+    <section class="flex min-h-lvh items-center justify-center">
+      <div
+        class="group relative min-h-96 w-[40rem] rounded-[20px] bg-green-100"
+      >
+        <div
+          class="absolute bottom-0 left-40 right-0 top-[20%] overflow-hidden rounded-br-[20px] pt-[10%]"
+        >
+          <img
+            src="img/MacBook Pro 16.png"
+            alt=""
+            class="transform-3d group-hover:transform-[translate3d(0,-10px,0)] block w-full max-w-none transition-transform duration-300 ease-in-out"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="flex min-h-lvh items-center justify-center">
+      <div
+        class="group relative flex h-96 w-[40rem] items-center justify-center rounded-[20px] bg-green-200"
+      >
+        <div
+          class="-translate-xy absolute left-1/2 top-1/2 size-96 rounded-full bg-white"
+        ></div>
+        <div class="absolute bottom-0">
+          <img src="img/Saly-39.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="flex min-h-lvh items-center justify-center">
+      <nav
+        class="fixed top-3 flex h-min w-[90vw] flex-row gap-5 text-[#ffffff] sm:bottom-0 sm:top-[inherit] sm:w-[100vw]"
+      >
+        <div
+          class="bg-solidblack flex h-full w-full flex-row justify-between rounded-[10px] px-5 py-3 font-normal sm:rounded-none md:gap-5"
+        >
+          <ul
+            class="flex flex-row items-center gap-5 sm:w-full sm:justify-between"
+          >
+            <li class="md:hidden">
+              <a href="#" class="s font-logo text-2xl"
+                ><img src="./img/MUCK.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-solidblack block rounded-md px-[15px] py-[10px] transition hover:bg-[#ffffff] sm:text-[0]"
+                >Home
+                <ion-icon
+                  name="home"
+                  class="hidden text-[#ffffff] sm:block sm:text-[25px]"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-solidblack block rounded-md px-[15px] py-[10px] transition hover:bg-[#ffffff] sm:text-[0]"
+                >About
+                <ion-icon
+                  name="document"
+                  class="hidden text-[#ffffff] sm:block sm:text-[25px]"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-solidblack block rounded-md px-[15px] py-[10px] transition hover:bg-[#ffffff] sm:text-[0]"
+              >
+                Forum<ion-icon
+                  name="chatbox"
+                  class="hidden text-[#ffffff] sm:block sm:text-[25px]"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-solidblack block rounded-md px-[15px] py-[10px] transition hover:bg-[#ffffff] sm:text-[0]"
+                >Contact
+                <ion-icon
+                  name="information-circle"
+                  class="hidden text-[#ffffff] sm:block sm:text-[25px]"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="hidden sm:block">
+              <a
+                href="#"
+                class="hover:text-solidblack block rounded-md px-[15px] py-[10px] transition hover:bg-[#ffffff] sm:text-[0]"
+              >
+                <ion-icon
+                  name="person"
+                  class="hidden text-[#ffffff] sm:block sm:text-[25px]"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <button
+            type="button"
+            id="theme-toggle"
+            class="hover:text-solidblack flex w-24 flex-row items-center gap-3 rounded-md px-3 transition hover:bg-[#ffffff] sm:hidden"
+          >
+            <ion-icon name="sunny" class="text-[20px]"></ion-icon>
+            Light
+          </button>
+        </div>
+
+        <a
+          href="#"
+          class="bg-solidblack hover:text-solidblack flex flex-row items-center justify-center gap-3 rounded-[10px] px-8 py-3 font-semibold transition hover:bg-[#ffffff] hover:ring-1 hover:ring-gray-300 sm:hidden"
+          ><ion-icon name="person" class="text-[20px]"></ion-icon>Login</a
+        >
+      </nav>
+    </section>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
